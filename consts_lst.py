@@ -18,9 +18,9 @@ dtype_dict = {'Time': pd.datetime, 'Record_num': np.int32, 'Ux': np.float64, 'Uy
                   'H2O': np.float64, 'Press': np.float64, 'Diag_R3': np.int,
                   't_hmp': np.float64, 'rh_hmp': np.float64, 'e_hmp': np.float64}
 
-data_path = '/disk4/Licor_data_C_Project/DH_2013_2015_ts'
-db_dir = '/disk4/Licor_data_C_Project/'
+data_path = '/Users/WangYinan/Desktop/2016/data1'
+db_dir = '/Users/WangYinan/Desktop/2016/data1'
 db_name = 'co2.db'
 db_tb_name = 'data_raw'
-test_file_dir = '/disk4/Licor_data_C_Project/DH_2013_2015_ts/CR1000_ts_data_130925.dat'
-H_dir='/home/wyn/py_scripts/for_co2/hour_mean.csv'
+test_file_dir = '/Users/WangYinan/Desktop/2016/data1/CR1000_ts_data_130925.dat'
+H_dir='/Users/WangYinan/for_co2/hour_mean.csv'
